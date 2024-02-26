@@ -46,7 +46,7 @@ if fl is not None:
     df = pd.read_csv(fileName, encoding="ISO-8859-1")
 else:
     #df = pd.read_csv("Streamlit-SuperStore\Superstore.xls", encoding="ISO-8859-1")
-    url = "https://github.com/Dat-A-rtist/stlite/blob/main/Superstore.csv"
+    url = "https://raw.githubusercontent.com/Dat-A-rtist/stlite/main/Superstore.csv"
     df = pd.read_csv(url, encoding="ISO-8859-1")
 
 col1, col2 = st.columns((2))
